@@ -1,7 +1,7 @@
 {
   "name": "Secure Local Weather",
   "description": "Get local weather forecasts without sending sensitive data away from your device.",
-  "short_name": "Secure Local Weather",
+  "short_name": "SecureLocalWeather",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",
