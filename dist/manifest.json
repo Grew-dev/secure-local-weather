@@ -1,0 +1,22 @@
+{
+  "name": "Secure Local Weather",
+  "description": "Get local weather forecasts without sending sensitive data away from your device.",
+  "short_name": "Secure Local Weather",
+  "icons": [
+    {
+      "src": "/img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#6CB9C8",
+  "theme_color": "#6CB9C8"
+}
+

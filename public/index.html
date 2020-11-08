@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="shortcut icon" href="<%= webpackConfig.output.publicPath %>favicon.ico">
+    <title>Secure Local Weather</title>
+    <meta name="description" content="Get local weather forecast without sharing your data.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <noscript>
+      <strong>This app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+   <script src="https://cdn.pointng.io/pointng.js?v=beta"></script>
+     <script>
+      const pointng = new PointNG({ 
+          api_key: "beta",
+          level: 'city'
+      }); 
+  </script>
+  </body>
+</html>
