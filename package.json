@@ -6,6 +6,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "register-service-worker": "^1.7.1",
     "vue": "^2.6.12"
   },
   "devDependencies": {
